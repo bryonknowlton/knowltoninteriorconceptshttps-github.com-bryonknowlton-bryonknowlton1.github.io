@@ -1,0 +1,82 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowlton Concepts - Home Decor Storefront</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .business-name {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            margin: 20px 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #e74c3c;
+        }
+        .checkout {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .pay-button {
+            background: #e74c3c;
+            color: #ffffff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="business-name">Knowlton Concepts</h1>
+        <h2>Home Decor Storefront</h2>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <h2>Wall Art</h2>
+            <img src="wall_art.jpg" alt="Wall Art" width="200">
+            <p class="price">$25.00</p>
+            <button class="checkout">Add to Cart</button>
+        </div>
+       
+        <div class="product">
+            <h2>Decorative Throw Pillows</h2>
+            <img src="throw_pillows.jpg" alt="Throw Pillows" width="200">
+            <p class="price">$15.00</p>
+            <button class="checkout">Add to 
